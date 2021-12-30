@@ -9,7 +9,41 @@ body {
     padding: 25%;
 }
 
-h1 {
+.title {
     font-family: bsb_smallcap;
     color: white;
+    font-size: 4em;
+    letter-spacing: 0.2em;
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.social {
+    margin-top: 20px;
+}
+
+a:link, a:visited {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+	padding: 4px;
+	border-radius: 4px;
+}
+
+a:hover {
+	color: #fff;
+	background: #fff;
+	color: rgb(29, 27, 77);
+	text-decoration: none;
 }
