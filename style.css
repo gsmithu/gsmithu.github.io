@@ -33,17 +33,6 @@ body {
     margin-top: 20px;
 }
 
-a:link, a:visited {
-	color: #fff;
-	text-decoration: none;
-	margin-right: 10px;
-	padding: 4px;
-	border-radius: 4px;
-}
-
-a:hover {
-	color: #fff;
-	background: #fff;
-	color: rgb(29, 27, 77);
-	text-decoration: none;
+.socialIcon {
+    height: 10%;
 }
