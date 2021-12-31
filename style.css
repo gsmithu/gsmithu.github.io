@@ -3,7 +3,7 @@
     src: url(fonts/bsb_smallcap.ttf);
 }
 
-body {
+html, body {
     height: 100%;
     background-color: #0a905d;
 }
@@ -25,8 +25,8 @@ body {
 .title {
     font-family: bsb_smallcap;
     color: white;
-    font-size: 4em;
-    letter-spacing: 0.2em;
+    font-size: 7vmin;
+    letter-spacing: 1vmin;
 }
 
 .social {
@@ -34,7 +34,8 @@ body {
 }
 
 .socialIcon {
-    width: 10%;
+    display: inline-block;
+    width: 5vmin;
 }
 
 .fade-in {
