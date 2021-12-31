@@ -27,6 +27,7 @@ html, body {
     color: white;
     font-size: 7vmin;
     letter-spacing: 1vmin;
+    visibility: hidden;
 }
 
 .social {
@@ -39,7 +40,7 @@ html, body {
 }
 
 .fade-in {
-    animation: fadeIn ease-in 1.5s;
+    animation: fadeIn ease-in 1.5s forwards;
 }
 
 .fade-in-delayed {
