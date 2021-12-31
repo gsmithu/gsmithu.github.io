@@ -4,9 +4,22 @@
 }
 
 body {
+    height: 100%;
     background-color: #0a905d;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.holder {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
     text-align: center;
-    padding: 25%;
 }
 
 .title {
@@ -14,6 +27,14 @@ body {
     color: white;
     font-size: 4em;
     letter-spacing: 0.2em;
+}
+
+.social {
+    margin-top: 25px;
+}
+
+.socialIcon {
+    width: 10%;
 }
 
 .fade-in {
@@ -27,12 +48,4 @@ body {
   100% {
     opacity: 1;
   }
-}
-
-.social {
-    margin-top: 25px;
-}
-
-.socialIcon {
-    width: 10%;
 }
