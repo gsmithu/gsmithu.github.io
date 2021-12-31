@@ -31,6 +31,7 @@ html, body {
 
 .social {
     margin-top: 3vmin;
+    visibility: hidden;
 }
 
 .socialIcon {
@@ -38,14 +39,20 @@ html, body {
 }
 
 .fade-in {
-  animation: fadeIn ease 5s;
+    animation: fadeIn ease-in 1.5s;
+}
+
+.fade-in-delayed {
+    animation: fadeIn ease-in 1.5s forwards;
+    animation-delay: 1.5s;
 }
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
 }
